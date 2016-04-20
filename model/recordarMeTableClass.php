@@ -3,11 +3,7 @@
 use mvc\model\modelClass as model;
 use mvc\config\myConfigClass as config;
 
-/**
- * Description of recordarMeTableClass
- *
- * @author Julian Lasso <ingeniero.julianlasso@gmail.com>
- */
+
 class recordarMeTableClass extends recordarMeBaseTableClass {
 
   public static function deleteSession($hash, $ip_address) {

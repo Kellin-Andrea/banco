@@ -12,7 +12,7 @@ class bitacoraBaseTableClass extends tableBaseClass {
   const ID = 'id';
   const ACCION = 'accion';
   const ACCION_LENGTH = 80;
-  const USUARIO_ID = 'usuario_id';
+  const NUM_CUENTA = 'num_cuenta';
   const OBSERVACION = 'observacion';
   const OBSERVACION_LENGTH = 1024;
   const FECHA = 'fecha';
