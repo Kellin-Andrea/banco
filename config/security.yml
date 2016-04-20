@@ -1,0 +1,19 @@
+shfSecurity:
+  index:
+    security: false
+  login:
+    security: false
+  logout:
+    security: true
+  noPermission:
+    security: false
+  exception:
+    security: false
+
+default:
+  index:
+    security: true
+    credentials:
+      - [admin, usuario]
+  insert:
+    security: true

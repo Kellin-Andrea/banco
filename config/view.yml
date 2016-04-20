@@ -1,0 +1,25 @@
+all:
+  favicon: hola.ico
+  title: titulo de la pagina general
+  meta:
+    - charset="UTF-8"
+    - http-equiv="X-UA-Compatible" content="IE=edge"
+  javascript:
+    - jquery-1.11.3.min.js
+    - bootstrap.js
+    - main.js
+  stylesheet:
+    - bootstrap.css
+    - main.css
+    - font-awesome.min.css
+
+shfSecurity:
+  index:
+    title: Identificacion de usuario
+    stylesheet:
+      - signin.css
+
+default:
+  index:
+    javascript:
+      - index.js
